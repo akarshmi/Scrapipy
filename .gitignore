@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Environment variable files
+.env
+.env.*
+
+# Streamlit-specific cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/*.json
+.streamlit/*.py
+.streamlit/cache/
+.streamlit/*.lock
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code and other IDE files
+.vscode/
+.idea/
+
+# pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# MyPy and other tools
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Data files
+*.db
+*.sqlite
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Misc
+*.bak
+*.swp
+*.swo
